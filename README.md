@@ -9,6 +9,9 @@
 - [Gatsby Plugin Library](https://www.gatsbyjs.com/plugins/)
 - [gatsby-plugin-styled-components](https://www.gatsbyjs.com/plugins/gatsby-plugin-styled-components/?=styled)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
+- [Figma Logo Creator Plugin](https://www.figma.com/community/plugin/768094929040207895/Logo-Creator)
+- [React Icons Package](https://react-icons.github.io/react-icons/)
+- [React Icons npm](https://www.npmjs.com/package/react-icons)
 
 -----
 
