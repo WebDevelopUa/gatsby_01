@@ -1,26 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
+import logo from "../assets/images/logo.svg"
+import { FaAlignJustify } from "react-icons/fa"
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to={`/`}>Home</Link>
-        </li>
-        <li>
-          <Link to={`/about`}>About</Link>
-        </li>
-        <li>
-          <Link to={`/recipes`}>Recipes</Link>
-        </li>
-        <li>
-          <Link to={`/tags`}>Tags</Link>
-        </li>
-        <li>
-          <Link to={`/contact`}>Contact</Link>
-        </li>
-      </ul>
+    <nav className="navbar">
+      <div className="nav-center">
+        <div className="nav-header">
+          <Link to={"/"}>
+            <img src={logo} alt="website logo" />
+          </Link>
+          <button className="nav-btn">
+            <FaAlignJustify />
+          </button>
+        </div>
+
+        <div className="nav-links show-links">
+          <Link className="nav-link" activeClassName="active-link" to={`/`}>Home</Link>
+          <Link className="nav-link" activeClassName="active-link" to={`/about`}>About</Link>
+          <Link className="nav-link" activeClassName="active-link" to={`/recipes`}>Recipes</Link>
+          <Link className="nav-link" activeClassName="active-link" to={`/tags`}>Tags</Link>
+          <div className="nav-link contact-link">
+            <Link className="btn" to={`/contact`}>Contact</Link>
+          </div>
+        </div>
+
+      </div>
+
+
     </nav>
   )
 }
