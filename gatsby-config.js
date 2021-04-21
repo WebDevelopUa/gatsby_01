@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
 module.exports = {
   siteMetadata: {
     title: "Simple Gatsby 3 Website",
@@ -36,6 +40,15 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/assets/images`
+      }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        // https://app.contentful.com/spaces/*******/api/keys/*********
+        spaceId: `x7lc1a841zv6`,
+        // .env.development | .env.production
+        accessToken: process.env.CONTENTFUL_API_KEY
       }
     }
   ]

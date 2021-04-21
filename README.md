@@ -18,6 +18,8 @@
 - [Gatsby Config API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
 - [gatsby-source-filesystem](https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/)
 - [Using the Gatsby Image plugin](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image/#dynamic-images)
+- [gatsby-source-contentful](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/)
+- [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
 - []()
 
 -----
@@ -83,11 +85,27 @@ query {
 ## DATA storages:
 
 - Local
-    - JSON
+    - [JSON](src/assets/data/recipe.json)
     - Markdown
     - MDX
 - External
     - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
+
+
+### Contentful
+
+- Content model - structure for a data
+- Content types fields
+  - rich text
+  - text (title, description)
+  - number (cookTime, servings, prepTime)
+  - date & time
+  - location
+  - media (image)
+  - boolean (featured)
+  - JSON objects (content)
+  - reference
+    
 
 -----
 
