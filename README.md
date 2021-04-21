@@ -12,7 +12,9 @@
 - [Figma Logo Creator Plugin](https://www.figma.com/community/plugin/768094929040207895/Logo-Creator)
 - [React Icons Package](https://react-icons.github.io/react-icons/)
 - [React Icons npm](https://www.npmjs.com/package/react-icons)
-
+- [Responsive Images](https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- [Free Stock Photos](https://www.pexels.com/)
+- [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/)
 -----
 
 Requirements:
@@ -41,6 +43,9 @@ Check the result:
 
 -----
 
+# Kick back & Relax
+
+-----
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
