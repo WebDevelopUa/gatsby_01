@@ -1,6 +1,6 @@
 # GatsbyJS 3 (Static site generator)
 
-### Simple project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
+### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
 
 - [Gatsby 3.0](https://www.gatsbyjs.com)
 - [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
@@ -15,15 +15,20 @@
 - [Responsive Images](https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 - [Free Stock Photos](https://www.pexels.com/)
 - [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/)
+- [Gatsby Config API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
+- [gatsby-source-filesystem](https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/)
+- [Using the Gatsby Image plugin](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image/#dynamic-images)
+- []()
+
 -----
 
 Requirements:
 
 - [Node.js](https://nodejs.org/uk/)
-- [Contenful]()
-- [Strapi]()
-- [Netlify]()
-- [Formspree]()
+- [Contenful](https://www.contentful.com)
+- [Strapi](https://strapi.io)
+- [Netlify](https://www.netlify.com)
+- [Formspree](https://formspree.io)
 
 -----
 
@@ -40,10 +45,49 @@ gatsby develop
 Check the result:
 
 - [localhost:8000](http://localhost:8000)
+- [localhost:8000/___graphql](http://localhost:8000/___graphql)
 
+-----
 -----
 
 # Kick back & Relax
+
+-----
+-----
+
+## Sample of GraphQL query
+
+```
+query {
+  site {
+    info: siteMetadata {
+      title
+      description
+      author
+      person {
+        name
+        age
+      }
+      simpleData
+      complexData {
+        name
+        age
+      }
+    }
+  }
+}
+```
+
+-----
+
+## DATA storages:
+
+- Local
+    - JSON
+    - Markdown
+    - MDX
+- External
+    - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
 
 -----
 
