@@ -27,7 +27,7 @@
 Requirements:
 
 - [Node.js](https://nodejs.org/uk/)
-- [Contenful](https://www.contentful.com)
+- [Contenful](https://www.contentful.com) - add items (images, title, description)
 - [Strapi](https://strapi.io)
 - [Netlify](https://www.netlify.com)
 - [Formspree](https://formspree.io)
@@ -37,11 +37,11 @@ Requirements:
 Install Gatsby project:
 
 ``` 
-npm i -g gatsby-cli
-gatsby --version
-npm install -g npm@7.10.0
-gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
-gatsby develop
+    npm i -g gatsby-cli
+    gatsby --version
+    npm install -g npm@7.10.0
+    gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+    gatsby develop
 ```
 
 Check the result:
