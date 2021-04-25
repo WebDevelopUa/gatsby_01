@@ -34,7 +34,13 @@ Requirements:
 
 -----
 
-Install Gatsby project:
+### Run in terminal
+
+``` 
+npm i
+```
+
+### Or install Gatsby project manually:
 
 ``` 
     npm i -g gatsby-cli
@@ -44,10 +50,17 @@ Install Gatsby project:
     gatsby develop
 ```
 
-Check the result:
+### Check the result:
 
 - [localhost:8000](http://localhost:8000)
 - [localhost:8000/___graphql](http://localhost:8000/___graphql)
+
+### Open [Contentful](https://be.contentful.com/login)
+
+- [create space](https://app.contentful.com/spaces/)
+- go to => Content model => create content type: ![image](./static/contentful-01.png) 
+- go to => Content => add new item
+- go to => Media => add new image
 
 -----
 -----
@@ -91,21 +104,19 @@ query {
 - External
     - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
 
-
 ### Contentful
 
 - Content model - structure for a data
 - Content types fields
-  - rich text
-  - text (title, description)
-  - number (cookTime, servings, prepTime)
-  - date & time
-  - location
-  - media (image)
-  - boolean (featured)
-  - JSON objects (content)
-  - reference
-    
+    - rich text
+    - text (title, description)
+    - number (cookTime, servings, prepTime)
+    - date & time
+    - location
+    - media (image)
+    - boolean (featured)
+    - JSON objects (content)
+    - reference
 
 -----
 
