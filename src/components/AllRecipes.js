@@ -30,8 +30,9 @@ export default function AllRecipes() {
   // console.log(recipes)
 
   return <div>
-    <h4>all recipes</h4>
-    <TagsList recipes={recipes} />
-    <RecipesList recipes={recipes} />
+    <section className="recipes-container">
+      <TagsList recipes={recipes} />
+      <RecipesList recipes={recipes} />
+    </section>
   </div>
 }

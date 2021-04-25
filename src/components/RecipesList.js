@@ -1,7 +1,21 @@
 import React from "react"
+import { Link } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-export default function RecipesList() {
-  return <div>
-    <h4>recipes list</h4>
+export default function RecipesList({ recipes = [] }) {
+  return <div className="recipes-list">
+    {recipes.map((recipe) => {
+      const { id, title, image, prepTime, cookTime } = recipe
+      const pathToImage = getImage(image)
+
+      return <Link
+        key={id}
+        to={`/${title}`}
+        className="recipe">
+        <GatsbyImage className="recipe-img" image={pathToImage} alt={title} />
+        <h5>{title}</h5>
+        <p>Prep: {prepTime}min | Cook: {cookTime}min</p>
+      </Link>
+    })}
   </div>
 }
