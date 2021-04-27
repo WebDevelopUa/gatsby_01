@@ -21,6 +21,7 @@
 - [gatsby-source-contentful](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/)
 - [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
 - [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
+- [slugify npm package](https://www.npmjs.com/package/slugify)
 - []()
 
 -----
