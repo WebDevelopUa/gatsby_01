@@ -58,7 +58,7 @@ npm i
 ### Open [Contentful](https://be.contentful.com/login)
 
 - [create space](https://app.contentful.com/spaces/)
-- go to => Content model => create content type: ![image](./static/contentful-01.png) 
+- go to => Content model => create content type: ![image](./static/contentful-01.png)
 - go to => Content => add new item
 - go to => Media => add new image
 
@@ -97,12 +97,14 @@ query {
 
 ## DATA storages:
 
-- Local
-    - [JSON](src/assets/data/recipe.json)
+- ### Local
+    - [JSON](src/assets/data/recipe.json) => copy/paste to [Contentful](https://www.contentful.com) content JSON object
     - Markdown
     - MDX
-- External
+- ### External
     - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
+
+-----
 
 ### Contentful
 
