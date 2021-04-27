@@ -20,6 +20,7 @@
 - [Using the Gatsby Image plugin](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image/#dynamic-images)
 - [gatsby-source-contentful](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/)
 - [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
+- [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
 - []()
 
 -----
@@ -103,6 +104,24 @@ query {
     - MDX
 - ### External
     - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
+
+-----
+
+## Creating pages
+
+* Manually
+    - homepage
+    - about page
+    - recipes page
+    - tags page
+    - contact page
+* Programmatically using Filesystem route API - recipes pages
+* Programmatically using Setting up in Gatsby node - tags pages
+
+``` 
+cd pages
+create {ContentfulRecipe.title}.js
+```
 
 -----
 
