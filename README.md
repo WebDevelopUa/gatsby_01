@@ -22,6 +22,7 @@
 - [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
 - [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
 - [slugify npm package](https://www.npmjs.com/package/slugify)
+- [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
 - []()
 
 -----
@@ -111,17 +112,29 @@ query {
 ## Creating pages
 
 * Manually
-    - homepage
-    - about page
-    - recipes page
-    - tags page
-    - contact page
+    - [homepage](./src/pages/index.js)
+    - [about page](./src/pages/about.js)
+    - [recipes page](./src/pages/recipes.js)
+    - [tags page](./src/pages/tags.js)
+    - [contact page](./src/pages/contact.js)
+    - [404 page](./src/pages/404.js)
+* Programmatically using Setting up in Gatsby-Node.js - tags pages
+  template: [tag-template.js](src/templates/tag-template.js) & [gatsby-node.js](./gatsby-node.js) is an old way how to
+  create pages
 * Programmatically using Filesystem route API - recipes pages
-* Programmatically using Setting up in Gatsby node - tags pages
+  template: [{ContentfulRecipe.title}.js](./src/pages/%7BContentfulRecipe.title%7D.js)
 
 ``` 
 cd pages
-create {ContentfulRecipe.title}.js
+create file: {ContentfulRecipe.title}.js
+```
+
+``` 
+cd src
+create file: template/tag-template.js
+
+cd /
+create file: gatsby-node.js
 ```
 
 -----
