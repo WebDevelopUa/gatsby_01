@@ -23,6 +23,7 @@
 - [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
 - [slugify npm package](https://www.npmjs.com/package/slugify)
 - [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
+- [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/?=webfonts)
 - []()
 
 -----
@@ -50,6 +51,7 @@ npm i
     gatsby --version
     npm install -g npm@7.10.0
     gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+    gatsby clean
     gatsby develop
 ```
 
