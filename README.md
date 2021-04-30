@@ -35,6 +35,7 @@ Requirements:
 - [Strapi](https://strapi.io)
 - [Netlify](https://www.netlify.com)
 - [Formspree](https://formspree.io) & feel free today!
+- [Favicon](https://favicon.io/favicon-generator/)
 
 -----
 
