@@ -34,7 +34,7 @@ Requirements:
 - [Contenful](https://www.contentful.com) - add items (images, title, description)
 - [Strapi](https://strapi.io)
 - [Netlify](https://www.netlify.com)
-- [Formspree](https://formspree.io)
+- [Formspree](https://formspree.io) & feel free today!
 
 -----
 

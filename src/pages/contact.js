@@ -20,7 +20,10 @@ export default function Contact() {
         </article>
 
         <article>
-          <form className="form contact-form">
+          <form
+            action="https://formspree.io/f/mayaqojy"
+            method="POST"
+            className="form contact-form">
 
             <div className="form-row">
               <label htmlFor="name"> Your Name</label>
