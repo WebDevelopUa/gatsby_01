@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
 import { BsClock, BsClockHistory, BsPeople } from "react-icons/all"
+import Seo from "../components/Seo"
 
 export const query = graphql`
  query getSingleRecipe($title: String) {
@@ -32,6 +33,7 @@ export default function RecipeTemplate({ data }) {
   const { tags, instructions, ingredients, tools } = content
 
   return <Layout>
+    <Seo title={title} description={`${title} page description`} />
     <main className="page">
       <div className="recipe-page">
 

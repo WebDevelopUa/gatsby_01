@@ -9,6 +9,7 @@ require("dotenv").config({
 })
 
 module.exports = {
+  // Seo data
   siteMetadata: {
     title: "Simple Gatsby 3 Website",
     description: "Simple pet-project generated using gatsby-starter-hello-world starter",

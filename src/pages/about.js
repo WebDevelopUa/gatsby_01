@@ -3,9 +3,11 @@ import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import RecipesList from "../components/RecipesList"
+import Seo from "../components/Seo"
 
 export default function About({ data: { allContentfulRecipe: { nodes: recipes } } }) {
   return <Layout>
+    <Seo title={`About`} description={`About page description`} />
     <main className="page">
       <section className="about-page">
         <article>

@@ -1,8 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Seo from "../components/Seo"
 
 export default function Contact() {
   return <Layout>
+    <Seo title={`Contact`} description={`Contact page description`} />
     <main className="page">
       <section className="contact-page">
 
