@@ -2,6 +2,9 @@
 
 ### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
 
+* ## [DEMO link of Front-end](https://gatsby-v3-hello-world.netlify.app/)
+* ## [Back-end link](https://app.contentful.com/spaces) to Contentful with Hooks to Netlify
+
 - [Gatsby 3.0](https://www.gatsbyjs.com)
 - [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
 - [Gatsby Starters](https://www.gatsbyjs.com/starters/?v=3)
@@ -157,6 +160,7 @@ create file: gatsby-node.js
     - boolean (featured)
     - JSON objects (content)
     - reference
+- Add Webhook (Menu => Settings)
 
 -----
 
@@ -175,6 +179,9 @@ create file: gatsby-node.js
         - Pick a repository
         - Show Advanced Build Settings => New Variable => ```CONTENTFUL_API_KEY=h7a9U5luZ**********```
         - Site settings, and deploy!
+        - Build & Deploy =>  Build Hooks => Add build hook => ```https://api.netlify.com/build_hooks/608da*******``` =>
+          copy / paste to [Contentful](https://app.contentful.com/spaces) => Settings => Webhooks => save
+          **(Netlify will restart the build after making some changes in Contentful)**
 
 -----
 
