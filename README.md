@@ -29,7 +29,6 @@
 - [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/?=webfonts)
 - [React Helmet](https://www.npmjs.com/package/react-helmet)
 - [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet)
-- []()
 
 -----
 
