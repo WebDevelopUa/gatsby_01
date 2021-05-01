@@ -35,9 +35,9 @@ Requirements:
 - [Node.js](https://nodejs.org/uk/)
 - [Contenful](https://www.contentful.com) - add items (images, title, description)
 - [Strapi](https://strapi.io)
-- [Netlify](https://www.netlify.com)
 - [Formspree](https://formspree.io) & feel free today!
 - [Favicon](https://favicon.io/favicon-generator/)
+- [Netlify](https://www.netlify.com)
 
 -----
 
@@ -157,6 +157,24 @@ create file: gatsby-node.js
     - boolean (featured)
     - JSON objects (content)
     - reference
+
+-----
+
+-----
+
+### Netlify
+
+- Login
+- Menu => [Sites](https://app.netlify.com/teams/****/sites)
+    - Drag and drop your site output folder here
+        - ```gatsby clean && gatsby build```
+        - drag & drop ```public``` folder
+    - New site from Git
+        - Create a new site
+        - Connect to Git provider
+        - Pick a repository
+        - Show Advanced Build Settings => New Variable => ```CONTENTFUL_API_KEY=h7a9U5luZ**********```
+        - Site settings, and deploy!
 
 -----
 
