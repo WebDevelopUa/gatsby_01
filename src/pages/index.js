@@ -5,25 +5,27 @@ import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../components/Seo"
 
 export default function Home() {
-  return <Layout>
-    <Seo title={`Home`} description={`Homepage description`} />
-    <main className="page">
-      <header className="hero">
-        <StaticImage
-          src="../assets/images/main.jpeg"
-          alt="hero"
-          className="hero-img"
-          placeholder="tracedSVG"
-          layout="fullWidth"
-        />
-        <div className="hero-container">
-          <div className="hero-text">
-            <h1>simply recipes</h1>
-            <h4>Lorem ipsum herfo msmiwn qadziy</h4>
+  return (
+    <Layout>
+      <Seo title={`Home`} description={`Homepage description`} />
+      <main className="page">
+        <header className="hero">
+          <StaticImage
+            src="../assets/images/main.jpeg"
+            alt="hero"
+            className="hero-img"
+            placeholder="tracedSVG"
+            layout="fullWidth"
+          />
+          <div className="hero-container">
+            <div className="hero-text">
+              <h1>simply recipes</h1>
+              <h4>Lorem ipsum herfo msmiwn qadziy</h4>
+            </div>
           </div>
-        </div>
-      </header>
-      <AllRecipes />
-    </main>
-  </Layout>
+        </header>
+        <AllRecipes />
+      </main>
+    </Layout>
+  )
 }

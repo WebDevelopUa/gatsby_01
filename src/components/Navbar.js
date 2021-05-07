@@ -13,26 +13,39 @@ const Navbar = () => {
           <Link to={"/"}>
             <img src={logo} alt="website logo" />
           </Link>
-          <button
-            className="nav-btn"
-            onClick={() => setShow(!show)}>
+          <button className="nav-btn" onClick={() => setShow(!show)}>
             <FaAlignJustify />
           </button>
         </div>
 
         <div className={show ? "nav-links show-links" : "nav-links"}>
-          <Link className="nav-link" activeClassName="active-link" to={`/`}>Home</Link>
-          <Link className="nav-link" activeClassName="active-link" to={`/about`}>About</Link>
-          <Link className="nav-link" activeClassName="active-link" to={`/recipes`}>Recipes</Link>
-          <Link className="nav-link" activeClassName="active-link" to={`/tags`}>Tags</Link>
+          <Link className="nav-link" activeClassName="active-link" to={`/`}>
+            Home
+          </Link>
+          <Link
+            className="nav-link"
+            activeClassName="active-link"
+            to={`/about`}
+          >
+            About
+          </Link>
+          <Link
+            className="nav-link"
+            activeClassName="active-link"
+            to={`/recipes`}
+          >
+            Recipes
+          </Link>
+          <Link className="nav-link" activeClassName="active-link" to={`/tags`}>
+            Tags
+          </Link>
           <div className="nav-link contact-link">
-            <Link className="btn" to={`/contact`}>Contact</Link>
+            <Link className="btn" to={`/contact`}>
+              Contact
+            </Link>
           </div>
         </div>
-
       </div>
-
-
     </nav>
   )
 }

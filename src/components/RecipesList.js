@@ -4,20 +4,27 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import slugify from "slugify"
 
 export default function RecipesList({ recipes = [] }) {
-  return <div className="recipes-list">
-    {recipes.map((recipe) => {
-      const { id, title, image, prepTime, cookTime } = recipe
-      const pathToImage = getImage(image)
-      const slug = slugify(title, { lower: true })
+  return (
+    <div className="recipes-list">
+      {recipes.map(recipe => {
+        const { id, title, image, prepTime, cookTime } = recipe
+        const pathToImage = getImage(image)
+        const slug = slugify(title, { lower: true })
 
-      return <Link
-        key={id}
-        to={`/${slug}`}
-        className="recipe">
-        <GatsbyImage className="recipe-img" image={pathToImage} alt={title} />
-        <h5>{title}</h5>
-        <p>Prep: {prepTime}min | Cook: {cookTime}min</p>
-      </Link>
-    })}
-  </div>
+        return (
+          <Link key={id} to={`/${slug}`} className="recipe">
+            <GatsbyImage
+              className="recipe-img"
+              image={pathToImage}
+              alt={title}
+            />
+            <h5>{title}</h5>
+            <p>
+              Prep: {prepTime}min | Cook: {cookTime}min
+            </p>
+          </Link>
+        )
+      })}
+    </div>
+  )
 }

@@ -11,11 +11,9 @@ export default function setupTags(recipes) {
     })
   })
 
-  return Object.entries(allTags)
-    .sort((a, b) => {
-        const [firstTag] = a
-        const [secondTag] = b
-        return firstTag.localeCompare(secondTag)
-      }
-    )
+  return Object.entries(allTags).sort((a, b) => {
+    const [firstTag] = a
+    const [secondTag] = b
+    return firstTag.localeCompare(secondTag)
+  })
 }

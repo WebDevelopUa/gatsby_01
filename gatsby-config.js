@@ -5,31 +5,27 @@
  */
 
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 module.exports = {
   // Seo data
   siteMetadata: {
     title: "Simple Gatsby 3 Website",
-    description: "Simple pet-project generated using gatsby-starter-hello-world starter",
+    description:
+      "Simple pet-project generated using gatsby-starter-hello-world starter",
     author: "@xxx",
     person: {
       name: "xxx",
-      age: 22
+      age: 22,
     },
-    simpleData: [
-      "item #1",
-      "item #2",
-      "item #3",
-      "item #4"
-    ],
+    simpleData: ["item #1", "item #2", "item #3", "item #4"],
     complexData: [
       {
         name: "yyy",
-        age: 33
-      }
-    ]
+        age: 33,
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -40,8 +36,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images`
-      }
+        path: `${__dirname}/src/assets/images`,
+      },
     },
     {
       resolve: `gatsby-plugin-webfonts`,
@@ -50,15 +46,15 @@ module.exports = {
           google: [
             {
               family: "Montserrat",
-              variants: ["400"]
+              variants: ["400"],
             },
             {
               family: "Inconsolata",
-              variants: ["400", "500", "600", "700"]
-            }
-          ]
-        }
-      }
+              variants: ["400", "500", "600", "700"],
+            },
+          ],
+        },
+      },
     },
     {
       resolve: `gatsby-source-contentful`,
@@ -66,8 +62,8 @@ module.exports = {
         // https://app.contentful.com/spaces/*******/api/keys/*********
         spaceId: `x7lc1a841zv6`,
         // .env.development | .env.production
-        accessToken: process.env.CONTENTFUL_API_KEY
-      }
-    }
-  ]
+        accessToken: process.env.CONTENTFUL_API_KEY,
+      },
+    },
+  ],
 }

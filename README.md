@@ -2,36 +2,36 @@
 
 ### Simple pet-project generated using [gatsby-starter-hello-world](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/) starter
 
-* ## [DEMO link of Front-end](https://gatsby-v3-hello-world.netlify.app/)
-* ## [Back-end link](https://app.contentful.com/spaces) to Contentful with Hooks to Netlify
+- ## [DEMO link of Front-end](https://gatsby-v3-hello-world.netlify.app/)
+- ## [Back-end link](https://app.contentful.com/spaces) to Contentful with Hooks to Netlify
 
-- [Gatsby 3.0](https://www.gatsbyjs.com)
-- [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
-- [Gatsby Starters](https://www.gatsbyjs.com/starters/?v=3)
-- [Hello world starter](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/)
-- [Gatsby Plugin Library](https://www.gatsbyjs.com/plugins/)
-- [gatsby-plugin-styled-components](https://www.gatsbyjs.com/plugins/gatsby-plugin-styled-components/?=styled)
-- [Normalize.css](https://necolas.github.io/normalize.css/)
-- [Figma Logo Creator Plugin](https://www.figma.com/community/plugin/768094929040207895/Logo-Creator)
-- [React Icons Package](https://react-icons.github.io/react-icons/)
-- [React Icons npm](https://www.npmjs.com/package/react-icons)
-- [Responsive Images](https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
-- [Free Stock Photos](https://www.pexels.com/)
-- [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/)
-- [Gatsby Config API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
-- [gatsby-source-filesystem](https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/)
-- [Using the Gatsby Image plugin](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image/#dynamic-images)
-- [gatsby-source-contentful](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/)
-- [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
-- [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
-- [slugify npm package](https://www.npmjs.com/package/slugify)
-- [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
-- [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/?=webfonts)
-- [React Helmet](https://www.npmjs.com/package/react-helmet)
-- [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet)
-- [Importing and exporting content with the Contentful CLI](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/)
+* [Gatsby 3.0](https://www.gatsbyjs.com)
+* [Quick Start](https://www.gatsbyjs.com/docs/quick-start)
+* [Gatsby Starters](https://www.gatsbyjs.com/starters/?v=3)
+* [Hello world starter](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world/)
+* [Gatsby Plugin Library](https://www.gatsbyjs.com/plugins/)
+* [gatsby-plugin-styled-components](https://www.gatsbyjs.com/plugins/gatsby-plugin-styled-components/?=styled)
+* [Normalize.css](https://necolas.github.io/normalize.css/)
+* [Figma Logo Creator Plugin](https://www.figma.com/community/plugin/768094929040207895/Logo-Creator)
+* [React Icons Package](https://react-icons.github.io/react-icons/)
+* [React Icons npm](https://www.npmjs.com/package/react-icons)
+* [Responsive Images](https://developer.mozilla.org/ru/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+* [Free Stock Photos](https://www.pexels.com/)
+* [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image/)
+* [Gatsby Config API](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/)
+* [gatsby-source-filesystem](https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/)
+* [Using the Gatsby Image plugin](https://www.gatsbyjs.com/docs/how-to/images-and-media/using-gatsby-plugin-image/#dynamic-images)
+* [gatsby-source-contentful](https://www.gatsbyjs.com/plugins/gatsby-source-contentful/)
+* [Environment Variables](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/)
+* [File System Route API](https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/)
+* [slugify npm package](https://www.npmjs.com/package/slugify)
+* [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/)
+* [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/?=webfonts)
+* [React Helmet](https://www.npmjs.com/package/react-helmet)
+* [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet)
+* [Importing and exporting content with the Contentful CLI](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/)
 
------
+---
 
 Requirements:
 
@@ -41,17 +41,17 @@ Requirements:
 - [Netlify](https://www.netlify.com) - deploy project
 - [Favicon](https://favicon.io/favicon-generator/)
 
------
+---
 
 ### Run in terminal
 
-``` 
+```
 npm i
 ```
 
 ### Or install Gatsby project manually:
 
-``` 
+```
 npm i -g gatsby-cli
 gatsby --version
 npm install -g npm@7.10.0
@@ -63,7 +63,7 @@ gatsby develop
 ### Check the result:
 
 - [localhost:8000](http://localhost:8000)
-- [localhost:8000/___graphql](http://localhost:8000/___graphql)
+- [localhost:8000/\_\_\_graphql](http://localhost:8000/___graphql)
 
 ### Open [Contentful](https://be.contentful.com/login)
 
@@ -72,13 +72,15 @@ gatsby develop
 - go to => Content => add new item
 - go to => Media => add new image
 
------
------
+---
+
+---
 
 # Kick back & Relax
 
------
------
+---
+
+---
 
 ## Sample of GraphQL query
 
@@ -103,40 +105,40 @@ query {
 }
 ```
 
------
+---
 
 ## DATA storages:
 
 - ### Local
-    - [JSON](src/assets/data/recipe.json) => copy/paste to [Contentful](https://www.contentful.com) content JSON object
-    - Markdown
-    - MDX
+  - [JSON](src/assets/data/recipe.json) => copy/paste to [Contentful](https://www.contentful.com) content JSON object
+  - Markdown
+  - MDX
 - ### External
-    - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
+  - [Headless CMS](https://jamstack.org/headless-cms/) => [Contentful](https://www.contentful.com)
 
------
+---
 
 ## Creating pages
 
-* Manually
-    - [homepage](./src/pages/index.js)
-    - [about page](./src/pages/about.js)
-    - [recipes page](./src/pages/recipes.js)
-    - [tags page](./src/pages/tags.js)
-    - [contact page](./src/pages/contact.js)
-    - [404 page](./src/pages/404.js)
-* Programmatically using Setting up in Gatsby-Node.js - tags pages
+- Manually
+  - [homepage](./src/pages/index.js)
+  - [about page](./src/pages/about.js)
+  - [recipes page](./src/pages/recipes.js)
+  - [tags page](./src/pages/tags.js)
+  - [contact page](./src/pages/contact.js)
+  - [404 page](./src/pages/404.js)
+- Programmatically using Setting up in Gatsby-Node.js - tags pages
   template: [tag-template.js](src/templates/tag-template.js) & [gatsby-node.js](./gatsby-node.js) is an old way how to
   create pages
-* Programmatically using Filesystem route API - recipes pages
+- Programmatically using Filesystem route API - recipes pages
   template: [{ContentfulRecipe.title}.js](./src/pages/%7BContentfulRecipe.title%7D.js)
 
-``` 
+```
 cd pages
 create file: {ContentfulRecipe.title}.js
 ```
 
-``` 
+```
 cd src
 create file: template/tag-template.js
 
@@ -144,45 +146,45 @@ cd /
 create file: gatsby-node.js
 ```
 
------
+---
 
 # Contentful
 
 - Content model - structure for a data
 - Content types fields
-    - rich text
-    - text (title, description)
-    - number (cookTime, servings, prepTime)
-    - date & time
-    - location
-    - media (image)
-    - boolean (featured)
-    - JSON objects (content)
-    - reference
+  - rich text
+  - text (title, description)
+  - number (cookTime, servings, prepTime)
+  - date & time
+  - location
+  - media (image)
+  - boolean (featured)
+  - JSON objects (content)
+  - reference
 - Add Webhook (Menu => Settings)
 
------
+---
 
------
+---
 
 # Netlify
 
 - Login
 - Menu => [Sites](https://app.netlify.com/teams/****/sites)
-    - Drag and drop your site output folder here
-        - ```gatsby clean && gatsby build```
-        - drag & drop ```public``` folder
-    - New site from Git
-        - Create a new site
-        - Connect to Git provider
-        - Pick a repository
-        - Show Advanced Build Settings => New Variable => ```CONTENTFUL_API_KEY=h7a9U5luZ**********```
-        - Site settings, and deploy!
-        - Build & Deploy =>  Build Hooks => Add build hook => ```https://api.netlify.com/build_hooks/608da*******``` =>
-          copy / paste to [Contentful](https://app.contentful.com/spaces) => Settings => Webhooks => save
-          **(Netlify will restart the build after making some changes in Contentful)**
+  - Drag and drop your site output folder here
+    - `gatsby clean && gatsby build`
+    - drag & drop `public` folder
+  - New site from Git
+    - Create a new site
+    - Connect to Git provider
+    - Pick a repository
+    - Show Advanced Build Settings => New Variable => `CONTENTFUL_API_KEY=h7a9U5luZ**********`
+    - Site settings, and deploy!
+    - Build & Deploy => Build Hooks => Add build hook => `https://api.netlify.com/build_hooks/608da*******` =>
+      copy / paste to [Contentful](https://app.contentful.com/spaces) => Settings => Webhooks => save
+      **(Netlify will restart the build after making some changes in Contentful)**
 
------
+---
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
