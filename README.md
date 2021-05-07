@@ -29,6 +29,7 @@
 - [gatsby-plugin-webfonts](https://www.gatsbyjs.com/plugins/gatsby-plugin-webfonts/?=webfonts)
 - [React Helmet](https://www.npmjs.com/package/react-helmet)
 - [gatsby-plugin-react-helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet)
+- [Importing and exporting content with the Contentful CLI](https://www.contentful.com/developers/docs/tutorials/cli/import-and-export/)
 
 -----
 
@@ -36,10 +37,9 @@ Requirements:
 
 - [Node.js](https://nodejs.org/uk/)
 - [Contenful](https://www.contentful.com) - add items (images, title, description)
-- [Strapi](https://strapi.io)
-- [Formspree](https://formspree.io) & feel free today!
+- [Formspree](https://formspree.io) - contact form backend service
+- [Netlify](https://www.netlify.com) - deploy project
 - [Favicon](https://favicon.io/favicon-generator/)
-- [Netlify](https://www.netlify.com)
 
 -----
 
@@ -52,12 +52,12 @@ npm i
 ### Or install Gatsby project manually:
 
 ``` 
-    npm i -g gatsby-cli
-    gatsby --version
-    npm install -g npm@7.10.0
-    gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
-    gatsby clean
-    gatsby develop
+npm i -g gatsby-cli
+gatsby --version
+npm install -g npm@7.10.0
+gatsby new gatsby-starter-hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+gatsby clean
+gatsby develop
 ```
 
 ### Check the result:
@@ -146,7 +146,7 @@ create file: gatsby-node.js
 
 -----
 
-### Contentful
+# Contentful
 
 - Content model - structure for a data
 - Content types fields
@@ -165,7 +165,7 @@ create file: gatsby-node.js
 
 -----
 
-### Netlify
+# Netlify
 
 - Login
 - Menu => [Sites](https://app.netlify.com/teams/****/sites)
